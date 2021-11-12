@@ -28,16 +28,25 @@ su movimiento a través de la glorieta es el que ilustrará la propuesta de solu
    * Otros agentes no serán capaces de acceder a esta área
 
 3. Carriles. Serán las líneas que los vehículos deben de seguir para transitar por la avenida.
-   * Cuando un vehículo tenga que cambiar de un carril a otro, será necesario que encienda las intermitentes
+   * Cuando un vehículo tenga que cambiar de un carril a otro, será necesario que encienda las intermitentes del lado correcto
    
 ----
 
-## Plan de trabajo:
+## Actividades pendientes:
 
- | Id | Actividad | Tiempo |
+
+ | Id | Actividad | Tiempo estimado |
 | --: | -- | -- |
-| 1 | [ ] Programar el comportamiento individual de cada agente | 1 semana |
-| 2 | [ ] Probar el funcionamiento individual | 2 días |
-| 3 | [ ] Implementar la relación adecuada | 2 semanas |
+| 1 | [ ] Programar el comportamiento individual de cada agente | 1 día |
+| 2 | [ ] Probar el funcionamiento individual | 1 día |
+| 3 | [ ] Implementar la relación adecuada | 2 días |
+| 4 | [ ] Avance 1.2  | 5 días |
+| 4 | [ ] Avance 2  | 5 días |
 
+## Actividades para la primera revisión:
 
+ | Id | Responsable | Fecha | Intervalo de tiempo estimado |
+| --: | -- | -- | -- |
+| 1 | Equipo 5 | (16/11) | 1 día |
+| 2 | Equipo 5 | (16/11) | 1 día |
+| 3 | Equipo 5 | (16/11) | 2 días |
