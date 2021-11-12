@@ -20,6 +20,12 @@ Rafael Ríos
 
  | Fortalezas | Áreas de oportunidad |
 | --| -- |
+|Conocimientos técnicos |Manejo del tiempo|
+|Trabajo en equipo | Consistencia|
+|Comunicación |Congruencia|
+|Creatividad | Trabajo durante periodos largos|
+
+
 
 
 ---
