@@ -2,8 +2,8 @@
 
 ## Equipo:
 
-- Eduardo Galindo Rojas Loa- A01028846 
-* Rafael Ríos García- A01028722
+- Eduardo Galindo Rojas Loa - A01028846 
+* Rafael Eduardo Ríos García - A01028722
 
 ----
 ## Propuesta formal del reto:
