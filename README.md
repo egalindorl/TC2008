@@ -32,7 +32,7 @@ su movimiento a través de la glorieta es el que ilustrará la propuesta de solu
    
 ----
 
-##Plan de trabajo:
+## Plan de trabajo:
 
  | Id | Actividad | Tiempo |
 | --: | -- | -- |
