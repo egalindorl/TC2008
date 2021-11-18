@@ -36,8 +36,6 @@ def roombaPortrayal(agent):
             "Filled": "true",
             "r": 0.2
         }
-
-
     return portrayal
 
 model_parameters = {
@@ -51,7 +49,6 @@ grid = CanvasGrid(roombaPortrayal, 10, 10, 500, 500)
 
 tree_chart = ChartModule(
     [{"Label": "Clean Tiles (in percentage)","Color": "green"}]
-
 )
 
 pie_chart = ChartModule(

@@ -2,7 +2,7 @@ from mesa.time import SimultaneousActivation
 from mesa.space import Grid
 from mesa import Model
 from mesa.datacollection import DataCollector
-from agent import Roomba, ObstacleAgent, Dirt
+from agent import Robot, ObstacleAgent, Dirt
 import time
 
 #Numero celdas sucias
@@ -52,9 +52,13 @@ class RoombaModel(Model):
             self.grid.place_agent(a, listaPosLimite[i])
 
         for i in range(self.num_agents):
-            a = Roomba(i+2000, self)
+            a = Robot(i+2000, self)
             self.schedule.add(a)
-            self.grid.place_agent(a, (1, 1))
+
+            x= self.random.randint(1,ancho)
+            y= self.random.randint(1,alto)
+
+            self.grid.place_agent(a, (x, y))
 
         for (contents, x, y) in self.grid.coord_iter():
             if (self.grid.is_cell_empty((x, y)) and self.random.random() < porcentaje):
@@ -89,6 +93,6 @@ class RoombaModel(Model):
     def count_moves(model):
         count = 0
         for agent in model.schedule.agents:
-            if isinstance(agent, Roomba):
+            if isinstance(agent, Robot):
                     count += agent.value
         return count

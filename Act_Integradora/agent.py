@@ -62,5 +62,5 @@ class Dirt(Agent):
     def step(self):
         if self.pos:
             for a in self.model.grid.get_cell_list_contents(self.pos):
-                if(isinstance(a, Roomba)):
+                if(isinstance(a, Robot)):
                     self.condition = "clean"
